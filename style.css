@@ -10,6 +10,15 @@ body{
     display: grid;
     place-content: center;
 }
+.date{
+    color: #1df52f;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    gap: 20px;
+}
 #drag-canvas{
     position: absolute;
     cursor: move;
